@@ -5,7 +5,9 @@ body {
     background-color: rgb(75, 4, 4);
     color: white;
 }
-
+header{
+    margin: 20px;
+}
 article {
     background-color: brown;
     padding: 15px;
@@ -62,4 +64,7 @@ video{
     video{
         width: 250px;
     }
+}
+footer{
+    margin: 20px;
 }
