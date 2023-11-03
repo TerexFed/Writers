@@ -20,12 +20,12 @@ article {
 
 img{
     filter: grayscale(100%);
-    box-shadow: 5px 5px 5px rgb(134, 113, 113);
+    box-shadow: 10px 10px rgb(134, 113, 113);
 }
 
 img:hover {
-    box-shadow: 5px 5px 5px rgb(255, 255, 255);
-    transition: 1s;
+    box-shadow: 10px 10px rgb(255, 255, 255);
+    transition: 0.3s;
 }
 
 figcaption {
@@ -66,5 +66,8 @@ video{
     }
 }
 footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin: 20px;
 }
