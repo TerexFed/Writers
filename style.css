@@ -5,9 +5,18 @@ body {
     background-color: rgb(75, 4, 4);
     color: white;
 }
-header{
-    margin: 20px;
+
+header {
+    display: flex;
+    justify-content: center;
 }
+
+header>h1:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+    transition: 0.7s;
+}
+
 article {
     background-color: brown;
     padding: 15px;
@@ -18,7 +27,7 @@ article {
     border-radius: 15px;
 }
 
-img{
+img {
     filter: grayscale(100%);
     box-shadow: 10px 10px rgb(134, 113, 113);
 }
@@ -30,42 +39,54 @@ img:hover {
 
 figcaption {
     margin-top: 15px;
+    width: 150px;
     font-size: 20px;
     letter-spacing: 5px;
     width: 550px;
 }
 
+.textandvideo {
+    position: relative;
+}
+
 blockquote {
+    display: flex;
     width: 300px;
     font-style: italic;
     font-size: 13px;
+    opacity: 0;
 }
-aside{
+
+aside {
     width: 25vw;
 }
-video{
+
+video {
     margin-top: 20px;
 }
 
 @media (width > 1100px) {
-    .textandvideo{
+    .textandvideo {
         width: 1000px;
     }
-    video{
+
+    video {
         width: 400px;
         height: 400px;
     }
-    aside{
+
+    aside {
         width: 35vw;
     }
 }
 
 @media (width < 1025px > 1025px) {
-    video{
+    video {
         width: 250px;
     }
 }
-footer{
+
+footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
